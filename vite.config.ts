@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: process.env.GITHUB_ACTIONS ? `/${process.env.REPO_NAME || ''}/` : '/',
+  base: '/hsc-digital-connect/',
   server: {
     host: "::",
     port: 8080,
